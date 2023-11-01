@@ -1,9 +1,15 @@
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Navbar/>
+      <Slider/>
+    </div>
   )
 }
 
