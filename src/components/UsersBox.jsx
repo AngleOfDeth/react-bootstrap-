@@ -15,7 +15,7 @@ const UsersBox = () => {
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 4
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
@@ -28,10 +28,10 @@ const UsersBox = () => {
     };
     return (
         <Container className="mt-5 mb-5" >
-            <Row >
-
+            <Row  >
                 <Carousel responsive={responsive}>
-                    <Col>
+
+                    <Col className="m-3" >
                         <Card className="text-center p-2">
                             <CardImg src="./images/avatar.jpg" className="rounded-circle w-25 m-auto" />
                             <Card.Body>
@@ -50,20 +50,19 @@ const UsersBox = () => {
 
                         </Card>
                     </Col>
-                    <Col>
+
+                    <Col className="m-3"  >
                         <Card className="text-center p-2">
                             <CardImg src="./images/avatar.jpg" className="rounded-circle w-25 m-auto" />
                             <Card.Body>
-                                <Card.Title>Special title treatment</Card.Title>
+                                <Card.Title> Jason newsted </Card.Title>
                                 <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as bass guitar player
                                 </Card.Text>
 
                                 <Card.Text>
-                                    <Telegram/> <Instagram/> <Twitter/> <Facebook/>
+                                    <Telegram /> <Instagram /> <Twitter /> <Facebook />
                                 </Card.Text>
-
-                                
 
                                 <Button size='sm' variant="outline-secondary "> More <ArrowRight /> </Button>
 
@@ -71,20 +70,43 @@ const UsersBox = () => {
 
                         </Card>
                     </Col>
-                    <Col>
+
+                    <Col className="m-3" >
                         <Card className="text-center p-2">
                             <CardImg src="./images/avatar.jpg" className="rounded-circle w-25 m-auto" />
                             <Card.Body>
                                 <Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as bass guitar player
                                 </Card.Text>
 
                                 <Card.Text>
-                                    <Telegram/> <Instagram/> <Twitter/> <Facebook/>
+                                    <Telegram /> <Instagram /> <Twitter /> <Facebook />
                                 </Card.Text>
 
-                                
+
+
+                                <Button size='sm' variant="outline-secondary "> More <ArrowRight /> </Button>
+
+                            </Card.Body>
+
+                        </Card>
+                    </Col>
+
+                    <Col className="m-3" >
+                        <Card className="text-center p-2">
+                            <CardImg src="./images/avatar.jpg" className="rounded-circle w-25 m-auto" />
+                            <Card.Body>
+                                <Card.Title>Special title treatment</Card.Title>
+                                <Card.Text>
+                                    With supporting text below as bass guitar player
+                                </Card.Text>
+
+                                <Card.Text>
+                                    <Telegram /> <Instagram /> <Twitter /> <Facebook />
+                                </Card.Text>
+
+
 
                                 <Button size='sm' variant="outline-secondary ">More <ArrowRight /> </Button>
 
@@ -92,20 +114,20 @@ const UsersBox = () => {
 
                         </Card>
                     </Col>
-                    <Col>
+
+                    <Col className="m-3" >
                         <Card className="text-center p-2">
                             <CardImg src="./images/avatar.jpg" className="rounded-circle w-25 m-auto" />
                             <Card.Body>
                                 <Card.Title>Special title treatment</Card.Title>
                                 <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
+                                    With supporting text below as bass guitar player
                                 </Card.Text>
-
                                 <Card.Text>
-                                    <Telegram/> <Instagram/> <Twitter/> <Facebook/>
+                                    <Telegram /> <Instagram /> <Twitter /> <Facebook />
                                 </Card.Text>
 
-                                
+
 
                                 <Button size='sm' variant="outline-secondary "> More <ArrowRight /> </Button>
 
@@ -113,6 +135,7 @@ const UsersBox = () => {
 
                         </Card>
                     </Col>
+
                 </Carousel>;
             </Row>
         </Container>

@@ -7,6 +7,7 @@ import Products from "./components/Products";
 import Parallax from "./components/parallax/Parallax";
 import Blogs from "./components/Blogs";
 import Users from "./components/UsersBox"
+import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <div className='header position-relative'>
@@ -17,6 +18,7 @@ const App = () => {
       <Parallax/>
       <Blogs/>
       <Users/>
+      <Footer/>
     </div>
   )
 }
