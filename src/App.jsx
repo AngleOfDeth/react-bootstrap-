@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import Category from "./components/Category";
 import Products from "./components/Products";
+import Parallax from "./components/parallax/Parallax";
 const App = () => {
   return (
     <div className='header position-relative'>
@@ -11,6 +12,7 @@ const App = () => {
       <Slider />
       <Category/>
       <Products/>
+      <Parallax/>
     </div>
   )
 }
