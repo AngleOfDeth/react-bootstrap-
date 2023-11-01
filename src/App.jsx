@@ -6,6 +6,7 @@ import Category from "./components/Category";
 import Products from "./components/Products";
 import Parallax from "./components/parallax/Parallax";
 import Blogs from "./components/Blogs";
+import Users from "./components/UsersBox"
 const App = () => {
   return (
     <div className='header position-relative'>
@@ -15,6 +16,7 @@ const App = () => {
       <Products/>
       <Parallax/>
       <Blogs/>
+      <Users/>
     </div>
   )
 }
