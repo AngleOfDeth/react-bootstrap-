@@ -3,13 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import Category from "./components/Category";
+import Products from "./components/Products";
 const App = () => {
   return (
-    <header className='header position-relative'>
+    <div className='header position-relative'>
       <Navbar/>
       <Slider />
       <Category/>
-    </header>
+      <Products/>
+    </div>
   )
 }
 
