@@ -15,8 +15,8 @@ function ProductCard({ img, title, desc, price,}) {
                 <Card.Text>
                     {desc}
                 </Card.Text>
-                <CardText>
-                    {price} $
+                <CardText className='fs-4 ' >
+                    {price}$
                 </CardText>
                 <CardText>
                     <StarFill />
@@ -26,7 +26,7 @@ function ProductCard({ img, title, desc, price,}) {
                     <StarHalf />
                     
                 </CardText>
-                <Button size='sm' variant="outline-dark ">Go To Shop <ArrowRight/> </Button>
+                <Button size='sm' variant="outline-secondary ">Go To Shop <ArrowRight/> </Button>
             </Card.Body>
         </Card>
     );
